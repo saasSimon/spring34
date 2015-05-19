@@ -8,3 +8,6 @@ console.log( 'The circumference of a circle of radius 4 is '
 
 console.log( 'The area of a square of side 4 is '
            , geometry.squarearea(4));
+
+console.log( 'The diagonal of a square of side 4 is '
+           , geometry.squarediagonal(4));

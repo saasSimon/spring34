@@ -11,3 +11,7 @@ exports.circlecircumference = function (r) {
 exports.squarearea = function (s) {
 	return s*s;
 }
+
+exports.squarediagonal = function (s) {
+	return Math.sqrt(Math.pow(s,2) + Math.pow(s,2));
+}
